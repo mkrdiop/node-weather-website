@@ -1,6 +1,5 @@
 
 
-console.log('client side javascript file is loaded')
 
 // const fetchLocation = (location) => {
 
