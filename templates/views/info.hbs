@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+         <link rel="icon" href="/img/weather.png">
+        <link rel="stylesheet" href="/css/style.css">
+        <script src="/js/app.js"></script>
+
+    </head>
+    <body>
+        <div class="main-content">
+        {{>header}}
+        <p>Use this site to get your weather</p>
+        <div class="row">
+            <h1>country : {{country}}</h1>
+            <img src={{icon}}>
+            <p> summary : {{summary}}</p>
+            <p> temperature : {{temperature}}</p>
+
+
+        </div>
+
+
+        </div>
+
+     
+
+        {{>footer}}
+    </body>
+</html>
